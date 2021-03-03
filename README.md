@@ -11,6 +11,7 @@ Created to practice basic Ruby skills for The Odin Project as described here htt
 * Ruby
 ## Challenges / Discoveries
 USING #INCLUDE?
+
 The main challenge I encounterd was to check for additional instances of the substring beyond the first one found using #include?. 
 * I first tried #delete, which removed all instances so all hash values (if present at all) were 1. 
 * Then, I tried to use #sub but it resulted in an infinite loop as the string was not actually altered. 
@@ -18,6 +19,7 @@ The main challenge I encounterd was to check for additional instances of the sub
 * This was solved with assining the new temporary variable as sample_string = "" + full_string.
 
 USING #SCAN
+
 After the initial upload of a working-but-not-particularly-concise program, I discovered that the method #scan would be a more direct approach.
 * Initially tried number = full_string.scan(current string) expecting a number, but discoverd that #scan returns an array
 * added #length to make it work.
