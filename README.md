@@ -16,6 +16,7 @@ The main challenge I encounterd was to check for additional instances of the sub
 * Then, I tried to use #sub but it resulted in an infinite loop as the string was not actually altered. 
 * I then used the bang method #sub! instead, which replaced the initial string irreperably, even when I had created a new temporary variable samble_string = full_string. 
 * This was solved with assining the new temporary variable as sample_string = "" + full_string.
+
 USING #SCAN
 After the initial upload of a working-but-not-particularly-concise program, I discovered that the method #scan would be a more direct approach.
 * Initially tried number = full_string.scan(current string) expecting a number, but discoverd that #scan returns an array, so added #length to make it work.
