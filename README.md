@@ -19,6 +19,8 @@ The main challenge I encounterd was to check for additional instances of the sub
 
 USING #SCAN
 After the initial upload of a working-but-not-particularly-concise program, I discovered that the method #scan would be a more direct approach.
-* Initially tried number = full_string.scan(current string) expecting a number, but discoverd that #scan returns an array, so added #length to make it work.
+* Initially tried number = full_string.scan(current string) expecting a number, but discoverd that #scan returns an array
+* added #length to make it work.
+
 ## Further Development
 This project could be made more interesting by allowing the reference array dictionary to be inputed by the user, and/or pointing the program to an existing website for evaluation.
